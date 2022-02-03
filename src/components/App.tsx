@@ -7,7 +7,7 @@ export default function App() {
     <Provider store={store}>
       <div>
         <h1>Search for a package</h1>
-        {/* <RepositoriesList /> */}
+        <RepositoriesList />
       </div>
     </Provider>
   );
