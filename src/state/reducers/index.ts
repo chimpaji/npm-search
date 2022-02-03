@@ -1,9 +1,5 @@
-//Wire up everything tgt and setup redux store
-
 import { combineReducers } from "redux";
-import repositoriesReducer from "./respositoriesReducer";
-
-//combine all reducers together
+import repositoriesReducer from "./repositoriesReducer";
 
 const reducers = combineReducers({
   repositories: repositoriesReducer
